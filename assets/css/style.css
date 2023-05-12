@@ -202,7 +202,7 @@ h6 {
   font-size: 24px;
   transition: all 0.4s;
   outline: none !important;
-  background-color: #149ddd;
+  background-color: #141E61;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -228,7 +228,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/April.jpg") top center;
   background-size: cover;
 }
 
@@ -847,3 +847,10 @@ section {
   color: #eaebf0;
 }
 
+@media (max-width: 1199px) {
+  #footer {
+    position: static;
+    width: auto;
+    padding-right: 20px 15px;
+  }
+}
